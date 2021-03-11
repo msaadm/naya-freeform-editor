@@ -11,3 +11,25 @@ form{
   border: 2px solid !important; 
   margin: 20px auto;
 }
+
+.sketch-users{
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  max-width: 800px;
+}
+.sketch-user{
+  border: 2px solid;
+  padding: 5px 10px;
+}
+
+.sketch-user span{
+  width: 20px;
+  height: 20px;
+  display:inline-block;
+  margin-right: 5px;
+}
+.sketch-user strong{
+  vertical-align: top;
+}
